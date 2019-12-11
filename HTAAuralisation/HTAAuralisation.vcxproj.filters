@@ -27,6 +27,9 @@
     <ClInclude Include="DSPtools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SpkConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DSPtools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpkConfig.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
