@@ -35,9 +35,6 @@
     <ClCompile Include="HTAAuralisation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\AudioFile\AudioFile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DSPtools.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

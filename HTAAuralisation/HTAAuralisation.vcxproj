@@ -157,7 +157,6 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\AudioFile\AudioFile.cpp" />
     <ClCompile Include="DSPtools.cpp" />
     <ClCompile Include="HTAAuralisation.cpp" />
     <ClCompile Include="stdafx.cpp">
