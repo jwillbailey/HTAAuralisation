@@ -9,12 +9,32 @@
 * Format is //channel Label 0 <newline> azimuth_0, elevation_0 <newline> ... <newline> //channel Label N <newline> azimuth_N, elevation_N  *
 * Try to use a standard channel ordering                  *
 **********************************************************************/
-Config Name: 4.0
+Config Name: Hex in medial plane, planar squares at height
 //Front
--45,0
+0,0
 //Front Right
-45,0
+60,0
 //Back Right
-135,0
+120,0
 //Back
--135,0
+180,0
+//Back Left
+240,0
+//Front Left
+300,0
+//Upper front left
+45,45
+//Upper rear left
+135,45
+//Upper rear right
+225,45
+//Upper front right
+315,45
+//Lower front left
+45,-45
+//Lower rear left
+135,-45
+//Lower rear right
+225,-45
+//Lower front right
+315,-45

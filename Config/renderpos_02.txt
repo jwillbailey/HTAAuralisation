@@ -9,12 +9,10 @@
 * Format is //channel Label 0 <newline> azimuth_0, elevation_0 <newline> ... <newline> //channel Label N <newline> azimuth_N, elevation_N  *
 * Try to use a standard channel ordering                  *
 **********************************************************************/
-Config Name: 4.0
+Config Name: LCR Stereo
+//Left
+-30,0
 //Front
--45,0
-//Front Right
-45,0
-//Back Right
-135,0
-//Back
--135,0
+0,0
+//Right
+30,0

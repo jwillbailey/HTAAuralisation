@@ -175,6 +175,7 @@
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\OpenBLAS.0.2.14.1\build\native\openblas.targets" Condition="Exists('..\packages\OpenBLAS.0.2.14.1\build\native\openblas.targets')" />
     <Import Project="..\packages\armadillo-code.7.800.2\build\native\armadillo-code.targets" Condition="Exists('..\packages\armadillo-code.7.800.2\build\native\armadillo-code.targets')" />
+    <Import Project="..\packages\blitz.0.10.0.5\build\native\blitz.targets" Condition="Exists('..\packages\blitz.0.10.0.5\build\native\blitz.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -182,5 +183,6 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\OpenBLAS.0.2.14.1\build\native\openblas.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\OpenBLAS.0.2.14.1\build\native\openblas.targets'))" />
     <Error Condition="!Exists('..\packages\armadillo-code.7.800.2\build\native\armadillo-code.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\armadillo-code.7.800.2\build\native\armadillo-code.targets'))" />
+    <Error Condition="!Exists('..\packages\blitz.0.10.0.5\build\native\blitz.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\blitz.0.10.0.5\build\native\blitz.targets'))" />
   </Target>
 </Project>
