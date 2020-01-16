@@ -1,8 +1,29 @@
 #include "SpkConfig.h"
+using namespace std;
+namespace fs = std::filesystem;
 
 SpkConfig::SpkConfig() {
-	ifstream speakerLayout("../Config/renderpos.txt");
+	
+	vector<fs::path> sc_path;
+	fs::path a;
+	sc_path.push_back(a);
+	int x = 9999;
+	while (x > (sc_path.size()-1)) {
+		int  _j = 0;
+		sc_path.clear();
+		std::cout << "Please select a speaker layout" << std::endl;
+		for (const auto& entry : fs::directory_iterator("../Config/")) {
+			sc_path.push_back(entry.path());
+
+			std::cout << _j << ": " << entry.path().string() << std::endl;
+			_j++;
+		}
+		cin >> x;
+	}
+	
+	ifstream speakerLayout(sc_path[x].string());
 	string line;
+
 	if (speakerLayout.is_open()) {
 		while (getline(speakerLayout, line))
 		{
