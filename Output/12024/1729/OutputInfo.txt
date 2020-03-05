@@ -1,3 +1,0 @@
-Original Audio: ../Audio/audio_hero_Restaurant_DIGIFX4-19.wav
-Impulse Response: "../IR/Restaraunt Diffuse"
-Speaker layout: Stereo
