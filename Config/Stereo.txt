@@ -1,0 +1,16 @@
+***********************************************************************
+* TEXT IN ASTERISKS IS IGNORED ****************************************
+* Rendering positions                                                 *
+* This text file defines a Nx2 vector of polar coordinates           *
+* Give the config a name. TODO: use dictinary/structures to allow indexing
+* Config Name: instantiates new config object
+* Right now, only config at a time is supported
+*
+* Format is //channel Label 0 <newline> azimuth_0, elevation_0 <newline> ... <newline> //channel Label N <newline> azimuth_N, elevation_N  *
+* Try to use a standard channel ordering                  *
+**********************************************************************/
+Config Name: Stereo
+//Left
+-30,0
+//Right
+30,0

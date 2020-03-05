@@ -1,0 +1,3 @@
+Original Audio: ../Audio/timeMac.wav
+Impulse Response: "../IR/Restaraunt Close"
+Speaker layout: Stereo
